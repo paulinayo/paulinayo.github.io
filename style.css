@@ -1,0 +1,68 @@
+.gauche {
+  position:fixed;
+  top: 0;
+  bottom:0;
+  left:0;
+  width: 300px;
+  background:white;
+}
+
+.droite {
+  position: fixed;
+  top:0;
+  left:300px;
+  bottom:0;
+  right:0;
+  background: lightgreen;
+}
+
+.scroll {
+  width:40px;
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  background: rgb(234, 0,3);
+}
+
+.bar {
+  width:100%;
+  height:120px;
+  background:rgb(45, 171, 102);
+  transform:translateY(20%);
+}
+
+.gauche .scroll {
+  background:rgb(0,42,88);blue;
+}
+.gauche .scroll .bar {
+  background:rgb(255,239,88);
+}
+
+
+img {
+  max-width:100%;
+  height:auto;
+}
+
+.contenu {
+  position:absolute;
+  left:0;
+  top:0;
+  right:-13px;
+  bottom:0;
+  padding-right:40px;
+  overflow-y:scroll;
+}
+
+.p1 {
+  background:pink;
+}
+
+.p2 {
+  background:blue;
+}
+
+.p3 {
+  background:green;
+}

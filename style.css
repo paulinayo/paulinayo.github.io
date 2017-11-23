@@ -60,7 +60,7 @@ img {
   position:absolute;
   left:0;
   top:0;
-  right:-13px;
+  right:-20px;
   bottom:0;
   padding-right:40px;
   overflow-y:scroll;
@@ -71,15 +71,21 @@ img {
   }
 
 .p2 {
-  background:blue;
+  background:rgb(54,72,255);
 }
 
 .p3 {
-  background:yellow;
+  background:rgb(67,226,255);
 }
 .p4 {
-  background:orange;
+  background:rgb(255,236,38);
 }
+.p5 {
+  background:rgb(230,3,255);
+}
+
+
+
 .cache {
 display: none;
 }

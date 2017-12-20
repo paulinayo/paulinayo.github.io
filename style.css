@@ -1,94 +1,168 @@
 html * {
-font-family: 'Roboto', sans-serif;
-list-style-type:none;
-color: darkblue
+  list-style-type: none;
+  cursor: url('./images/curseurpoussin2.cur'), pointer;
 }
 
+body {
+  font-family: 'Caudex', serif;
+  color: rgb(0, 232, 129);
+  /*(0,232,129);*/
+}
+
+ul {
+  margin-left: 11%;
+  padding-left: 0;
+  margin-right: 11%;
+}
 
 .gauche {
-  position:fixed;
+  position: fixed;
   top: 0;
-  bottom:0;
-  left:0;
+  bottom: 0;
+  left: 0;
   width: 300px;
-  background:white;
-
+  background: white;
 }
 
 .menu {
   padding-right: 50px;
+  overflow-y: scroll;
+  height: 100%;
 }
+
 .droite {
   position: fixed;
-  top:0;
-  left:300px;
-  bottom:0;
-  right:0;
-  background:pink;
+  top: 0;
+  left: 300px;
+  bottom: 0;
+  right: 0;
+  background: pink;
 }
 
 .scroll {
-  width:40px;
-  position:absolute;
-  top:0;
-  bottom:0;
-  right:0;
-  background: rgb(234,0,3);
+  width: 40px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: rgb(135, 8, 22);
+  /*bordeau*/
 }
 
 .bar {
-  width:100%;
-  height:120px;
-  background:lightgreen;
-  transform:translateY(20%);
+  width: 100%;
+  height: 120px;
+  background: rgb(255, 15, 41);
+  /*rouge*/
+  transform: translateY(20%);
 }
 
 .gauche .scroll {
-  background:rgb(0,42,88);blue;
-}
-.gauche .scroll .bar {
-  background:rgb(255,239,88);
+  background: rgb(17, 252, 162);
+  /*moutarde*/
 }
 
+.gauche .scroll .bar {
+  background: rgb(255, 255, 91);
+  /*jaune*/
+}
 
 img {
-  max-width:100%;
-  height:auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .contenu {
-  position:absolute;
-  left:0;
-  top:0;
-  right:-20px;
-  bottom:0;
-  padding-right:40px;
-  overflow-y:scroll;
-  }
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: -20px;
+  bottom: 0;
+  padding-right: 40px;
+  overflow-y: scroll;
+}
 
 .p1 {
-  background:pink;
-  }
+  background: pink
+}
+
+.p8 {
+  background: rgb(255, 249, 110);
+}
 
 .p2 {
-  background:rgb(54,72,255);
+  background: rgb(120, 191, 229);
 }
 
 .p3 {
-  background:rgb(67,226,255);
+  background: rgb(161, 255, 255);
 }
+
 .p4 {
-  background:rgb(255,236,38);
+  background: rgb(0, 8, 97);
 }
+
 .p5 {
-  background:rgb(230,3,255);
+  background: rgb(255, 68, 255);
 }
 
+.p6 {
+  background: rgb(255, 99, 58);
+}
 
+.p7 {
+  background: rgb(250, 229, 183);
+}
 
+.p9 {
+  background: rgb(255, 252, 142);
+  position: fixed;
+  top: 0;
+  left: 300px;
+  bottom: 0;
+  right: 0;
+}
+
+.p10 {
+  background: pink
+}
+
+.p11 {
+  background: pink
+}
+
+p {
+  margin-top: 0
+}
+
+p em {}
 .cache {
-display: none;
+  display: none;
+  margin-top: 0;
 }
-.lien-projet-1{
 
+.info {
+  color: pink;
+}
+
+a {
+  text-decoration: none;
+ color: inherit;
+}
+
+#lien-projet-10 {
+  color: rgb(255, 255, 91);
+}
+
+#lien-projet-11 {
+  color: rgb(255, 255, 91);
+}
+
+#lien-projet-12 {
+  color: rgb(255, 255, 91);
+}
+
+
+#lien-projet-1:hover{
+font-style: italic;
 }

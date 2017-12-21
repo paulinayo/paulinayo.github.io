@@ -1,11 +1,12 @@
 html * {
   list-style-type: none;
-  cursor: url('./images/curseurpoussin2.cur'), pointer;
+  cursor: url('./images/etoile.cur'), pointer;
 }
 
 body {
   font-family: 'Caudex', serif;
-  color: rgb(0, 232, 129);
+  <p class="coldemobig" style="font-family:&quot;savate-italique-webfont&quot;;"></p>color: black
+  /*rgb(0, 232, 129);*/
   /*(0,232,129);*/
 }
 
@@ -36,7 +37,7 @@ ul {
   left: 300px;
   bottom: 0;
   right: 0;
-  background: pink;
+  background: rgb(255,149,128);
 }
 
 .scroll {
@@ -52,19 +53,19 @@ ul {
 .bar {
   width: 100%;
   height: 120px;
-  background: rgb(255, 15, 41);
+  background: rgb(100, 135, 252);
   /*rouge*/
   transform: translateY(20%);
 }
 
 .gauche .scroll {
   background: rgb(17, 252, 162);
-  /*moutarde*/
+  /*lightgreen*/
 }
 
 .gauche .scroll .bar {
-  background: rgb(255, 255, 91);
-  /*jaune*/
+  background: rgb(174, 27, 209);
+  /*violet*/
 }
 
 img {
@@ -83,7 +84,7 @@ img {
 }
 
 .p1 {
-  background: pink
+  background: rgb(255, 149, 128);
 }
 
 .p8 {
@@ -136,33 +137,70 @@ p {
 }
 
 p em {}
+
+/*pour changer juste le texte courant à l'intérieur des articles*/
+
 .cache {
   display: none;
   margin-top: 0;
 }
 
 .info {
-  color: pink;
+  color: black;
 }
 
 a {
+  /* truc automatique qui s'applique à tout mes liens*/
   text-decoration: none;
- color: inherit;
+  color: inherit;
+  /* s'applique là où il est inclus*/
 }
 
-#lien-projet-10 {
-  color: rgb(255, 255, 91);
+#lien-projet-10:hover {
+  color: rgb(174, 27, 209);
 }
 
-#lien-projet-11 {
-  color: rgb(256, 255, 91);
+#lien-projet-11:hover {
+  color: rgb(174, 27, 209);
 }
 
-#lien-projet-12 {
-  color: rgb(255, 255, 91);
+#lien-projet-12:hover {
+  color: rgb(174, 27, 209);
 }
 
+#lien-projet-1:hover {
+  /*  font-style: italic;*/
+  color: rgb(255, 149, 128);
+}
 
-#lien-projet-1:hover{
-font-style: italic;
+#lien-projet-2:hover {
+  color: rgb(17, 252, 152)
+}
+
+#lien-projet-3:hover {
+  color: rgb(17, 252, 152)
+}
+
+#lien-projet-4:hover {
+  color: rgb(17, 252, 152)
+}
+
+#lien-projet-5:hover {
+  color: rgb(17, 252, 152)
+}
+
+#lien-projet-6:hover {
+  color: rgb(17, 252, 152)
+}
+
+#lien-projet-7:hover {
+  color: rgb(17, 252, 152)
+}
+
+#lien-projet-8:hover {
+  color: rgb(17, 252, 152)
+}
+
+#lien-projet-9:hover {
+  color: rgb(17, 252, 152)
 }

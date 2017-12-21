@@ -5,10 +5,10 @@ html * {
 
 body {
   font-family: 'Caudex', serif;
-  <p class="coldemobig" style="font-family:&quot;savate-italique-webfont&quot;;"></p>color: black
-  /*rgb(0, 232, 129);*/
-  /*(0,232,129);*/
+  /*  <p class="coldemobig" style="font-family:&quot;savate-italique-webfont&quot;;"></p>color: yellow;*/
+  color: rgb(0, 4, 25);
 }
+
 
 ul {
   margin-left: 11%;
@@ -37,7 +37,7 @@ ul {
   left: 300px;
   bottom: 0;
   right: 0;
-  background: rgb(255,149,128);
+  background: rgb(255, 149, 128);
 }
 
 .scroll {
@@ -133,7 +133,7 @@ img {
 }
 
 p {
-  margin-top: 0
+  margin-top: 0;
 }
 
 p em {}
@@ -143,10 +143,11 @@ p em {}
 .cache {
   display: none;
   margin-top: 0;
+  color: yellow;
 }
 
 .info {
-  color: black;
+  color: rgb(0, 4, 25);
 }
 
 a {

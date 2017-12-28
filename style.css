@@ -126,6 +126,11 @@ img {
 
 .p10 {
   background: pink
+  top: 0;
+  left: 300px;
+  bottom: 0;
+  right: 0;
+
 }
 
 .p11 {

@@ -38,7 +38,7 @@ ul {
   left: 300px;
   bottom: 0;
   right: 0;
-  background: rgb(118,251,117);
+  background: rgb(253,117,65);
 }
 
 .scroll {
@@ -85,8 +85,9 @@ img {
 }
 
 .p1 {
-  background: rgb(118, 251, 117)
-  (230,178,0);
+  background: rgb(253, 117, 65)
+  /*(118, 251, 117)vert d'eau*/
+  /*(230,178,0);/*rose*/
 }
 
 .p8 {

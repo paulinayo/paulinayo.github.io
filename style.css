@@ -7,6 +7,7 @@ body {
   font-family: 'Caudex', serif;
   /*  <p class="coldemobig" style="font-family:&quot;savate-italique-webfont&quot;;"></p>color: yellow;*/
   color: rgb(0, 4, 25);
+  max-width: 90%
 }
 
 
@@ -37,7 +38,7 @@ ul {
   left: 300px;
   bottom: 0;
   right: 0;
-  background: rgb(255, 149, 128);
+  background: rgb(211,142,0);
 }
 
 .scroll {
@@ -54,7 +55,7 @@ ul {
   width: 100%;
   height: 120px;
   background: rgb(100, 135, 252);
-  /*rouge*/
+  /*bleu*/
   transform: translateY(20%);
 }
 
@@ -84,7 +85,7 @@ img {
 }
 
 .p1 {
-  background: rgb(255, 149, 128);
+  background: rgb(211,142,0);
 }
 
 .p8 {
@@ -163,50 +164,50 @@ a {
 }
 
 #lien-projet-10:hover {
-  color: rgb(174, 27, 209);
+  color: rgb(135, 8, 22);
 }
 
 #lien-projet-11:hover {
-  color: rgb(174, 27, 209);
+  color: rgb(135, 8, 22);
 }
 
 #lien-projet-12:hover {
-  color: rgb(174, 27, 209);
+  color: rgb(135, 8, 22);
 }
 
 #lien-projet-1:hover {
   /*  font-style: italic;*/
-  color: rgb(255, 149, 128);
+  color: rgb(100, 135, 252);
 }
 
 #lien-projet-2:hover {
-  color: rgb(17, 252, 152)
+  color: rgb(227,142,0)
 }
 
 #lien-projet-3:hover {
-  color: rgb(17, 252, 152)
+  color: rgb(211,142,0)
 }
 
 #lien-projet-4:hover {
-  color: rgb(17, 252, 152)
+  color: rgb(211,142,0)
 }
 
 #lien-projet-5:hover {
-  color: rgb(17, 252, 152)
+  color: rgb(211,142,0)
 }
 
 #lien-projet-6:hover {
-  color: rgb(17, 252, 152)
+  color: rgb(211,142,0)
 }
 
 #lien-projet-7:hover {
-  color: rgb(17, 252, 152)
+  color: rgb(211,142,0)
 }
 
 #lien-projet-8:hover {
-  color: rgb(17, 252, 152)
+  color: rgb(211,142,0)
 }
 
 #lien-projet-9:hover {
-  color: rgb(17, 252, 152)
+  color: rgb(211,142,0)
 }

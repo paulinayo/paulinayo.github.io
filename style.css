@@ -1,6 +1,6 @@
 html * {
   list-style-type: none;
-  cursor: url('./images/etoile.cur'), pointer;
+  cursor: url('./images/sun.cur'), pointer;
 }
 
 body {
@@ -38,7 +38,7 @@ ul {
   left: 300px;
   bottom: 0;
   right: 0;
-  background: rgb(211,142,0);
+  background: rgb(118,251,117);
 }
 
 .scroll {
@@ -85,7 +85,8 @@ img {
 }
 
 .p1 {
-  background: rgb(211,142,0);
+  background: rgb(118, 251, 117)
+  (230,178,0);
 }
 
 .p8 {

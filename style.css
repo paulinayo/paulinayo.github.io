@@ -10,7 +10,6 @@ body {
   max-width: 90%
 }
 
-
 ul {
   margin-left: 11%;
   padding-left: 0;
@@ -38,7 +37,7 @@ ul {
   left: 300px;
   bottom: 0;
   right: 0;
-  background: rgb(253,117,65);
+  background: rgb(158, 252, 184);
 }
 
 .scroll {
@@ -53,8 +52,8 @@ ul {
 
 .bar {
   width: 100%;
-  height: 120px;
-  background: rgb(100, 135, 252);
+  height: 200px;
+  background: rgb(246,175,171);
   /*bleu*/
   transform: translateY(20%);
 }
@@ -85,7 +84,7 @@ img {
 }
 
 .p1 {
-  background: rgb(253, 117, 65)
+  background: rgb(158, 252, 184)
   /*(118, 251, 117)vert d'eau*/
   /*(230,178,0);/*rose*/
 }
@@ -128,17 +127,19 @@ img {
 }
 
 .p10 {
-  background: pink
-  top: 0;
+  background: pink top: 0;
   left: 300px;
   bottom: 0;
   right: 0;
-
 }
 
 .p11 {
   background: pink
 }
+.p13 {
+background: rgb(201, 142, 0);
+}
+
 
 p {
   margin-top: 0;
@@ -179,37 +180,41 @@ a {
 
 #lien-projet-1:hover {
   /*  font-style: italic;*/
-  color: rgb(100, 135, 252);
+  color: rgb(246,175,171)
+  /*(247, 106, 98);*/
 }
 
 #lien-projet-2:hover {
-  color: rgb(227,142,0)
+  color: rgb(227, 142, 0)
 }
 
 #lien-projet-3:hover {
-  color: rgb(211,142,0)
+  color: rgb(211, 142, 0)
 }
 
 #lien-projet-4:hover {
-  color: rgb(211,142,0)
+  color: rgb(211, 142, 0)
 }
 
 #lien-projet-5:hover {
-  color: rgb(211,142,0)
+  color: rgb(211, 142, 0)
 }
 
 #lien-projet-6:hover {
-  color: rgb(211,142,0)
+  color: rgb(211, 142, 0)
 }
 
 #lien-projet-7:hover {
-  color: rgb(211,142,0)
+  color: rgb(211, 142, 0)
 }
 
 #lien-projet-8:hover {
-  color: rgb(211,142,0)
+  color: rgb(211, 142, 0)
 }
 
 #lien-projet-9:hover {
-  color: rgb(211,142,0)
+  color: rgb(211, 142, 0)
+}
+#lien-projet-13:hover {
+  color: rgb(211, 142, 0)
 }

@@ -15,6 +15,8 @@ liArr.forEach(function(li, index) {
       activeProject = index;
     }
     loopProjects();
+    scrollDroite.update();
+    scrollGauche.update();
   });
 });
 
@@ -26,8 +28,6 @@ function loopProjects() {
     };
     hideProject(index);
   });
-  dimensionBarreGauche();
-  dimensionBarreDroite();
 }
 
 function getProjectMenuItem(index) {
@@ -47,52 +47,3 @@ function hideProject(index) {
   p.classList.add('cache');
   getProjectMenuItem(index).querySelector('p').classList.add('cache');
 }
-
-var barreGauche = document.querySelector('.gauche .bar');
-var menuGauche = document.querySelector('.gauche .menu');
-var contenuMenuGauche = document.querySelector('.gauche .menu ul');
-
-var barreDroite = document.querySelector('.droite .bar');
-var contenuDroite = document.querySelector('.droite .contenu');
-function getContenuContenuDroite() { return document.querySelector('.droite .contenu article:not(.cache)'); };
-
-function dimensionBarreGauche() {
-  var barreGauche = document.querySelector('.gauche .bar');
-  var menuGauche = document.querySelector('.gauche .menu');
-  var contenuMenuGauche = document.querySelector('.gauche .menu ul');
-  var hauteurContenuMenu = contenuMenuGauche.getBoundingClientRect().height;
-  var hauteurMenu = menuGauche.getBoundingClientRect().height;
-  barreGauche.style.height = hauteurMenu - Math.abs(hauteurContenuMenu - hauteurMenu) + 'px';
-}
-
-function dimensionBarreDroite() {
-  var barreDroite = document.querySelector('.droite .bar');
-  var contenuDroite = document.querySelector('.droite .contenu');
-  var hauteurContenuContenuDroite = getContenuContenuDroite().getBoundingClientRect().height;
-  var hauteurContenu = contenuDroite.getBoundingClientRect().height;
-  barreDroite.style.height = hauteurContenu - Math.abs(hauteurContenuContenuDroite - hauteurContenu) + 'px';
-}
-
-menuGauche.addEventListener('scroll', function(){
-  var hauteurContenuMenu = contenuMenuGauche.getBoundingClientRect().height;
-  var hauteurMenu = menuGauche.getBoundingClientRect().height;
-  var hauteurBarre = barreGauche.getBoundingClientRect().height;
-  var pourcentageScroll = menuGauche.scrollTop / ( hauteurMenu - hauteurBarre );
-  var decalageBarre = pourcentageScroll * ( hauteurMenu - hauteurBarre );
-  if (decalageBarre - hauteurBarre > hauteurMenu ) {
-    decalageBarre = hauteurMenu - hauteurBarre;
-  }
-  barreGauche.style.transform = 'translateY(' + decalageBarre + 'px)';
-});
-
-contenuDroite.addEventListener('scroll', function(){
-  var hauteurContenuContenuDroite = getContenuContenuDroite().getBoundingClientRect().height;
-  var hauteurContenuDroite = contenuDroite.getBoundingClientRect().height;
-  var hauteurBarre = barreDroite.getBoundingClientRect().height;
-  var pourcentageScroll = contenuDroite.scrollTop / ( hauteurContenuDroite - hauteurBarre );
-  var decalageBarre = pourcentageScroll * ( hauteurContenuDroite - hauteurBarre );
-  if (decalageBarre - hauteurBarre > hauteurContenuDroite ) {
-    decalageBarre = hauteurContenuDroite - hauteurBarre;
-  }
-  barreDroite.style.transform = 'translateY(' + decalageBarre + 'px)';
-});

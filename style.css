@@ -30,9 +30,7 @@ ul {
 }
 
 .menu {
-  padding-right: 50px;
-  overflow-y: scroll;
-  height: 100%;
+
 }
 
 .droite {
@@ -80,13 +78,7 @@ img {
 }
 
 .contenu {
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: -20px;
-  bottom: 0;
-  padding-right: 40px;
-  overflow-y: scroll;
+
 }
 
 .p1 {
@@ -223,4 +215,30 @@ a {
 }
 #lien-projet-13:hover {
   color: rgb(211, 142, 0)
+}
+
+.viewport { height: 100%; overflow: hidden; position: relative; }
+.overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; }
+.scrollbar{ position: relative; float: right; width: 40px; }
+.track {  height: 100%; width:40px; position: relative; }
+.thumb {  height: 20px; width: 40px; cursor: pointer; overflow: hidden; position: absolute; top: 0; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+
+#droite .track {
+  background: pink;
+}
+
+#gauche .track {
+  background: yellow;
+}
+
+#gauche .scrollbar {
+  opacity: 0;
+}
+#droite .thumb {
+  background: blue;
+}
+
+#gauche .thumb {
+  background: green;
 }

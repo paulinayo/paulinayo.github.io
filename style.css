@@ -4,10 +4,12 @@ html * {
 }
 
 body {
-  font-family: 'Caudex', serif;
+  font-family: 'bluu';
   /*  <p class="coldemobig" style="font-family:&quot;savate-italique-webfont&quot;;"></p>color: yellow;*/
   color: rgb(0, 4, 25);
-  max-width: 90%
+  max-width: 90%;
+
+
 }
 
 ul {
@@ -22,7 +24,9 @@ ul {
   bottom: 0;
   left: 0;
   width: 300px;
-  background: white;
+  background:rgb(247, 177, 134);
+  white;
+  (173,255,244)
 }
 
 .menu {
@@ -38,6 +42,7 @@ ul {
   bottom: 0;
   right: 0;
   background: rgb(158, 252, 184);
+  /*lightgreen*/
 }
 
 .scroll {
@@ -46,20 +51,22 @@ ul {
   top: 0;
   bottom: 0;
   right: 0;
-  background: rgb(135, 8, 22);
-  /*bordeau*/
+  background:rgb(246,175,171);
+    /*rose*/
+
 }
 
 .bar {
   width: 100%;
   height: 200px;
-  background: rgb(246,175,171);
+  background: blue;
   /*bleu*/
   transform: translateY(20%);
 }
 
 .gauche .scroll {
-  background: rgb(17, 252, 162);
+  background: pink;
+  (17, 252, 162);
   /*lightgreen*/
 }
 
@@ -175,7 +182,7 @@ a {
 }
 
 #lien-projet-12:hover {
-  color: rgb(135, 8, 22);
+  color: yellow;
 }
 
 #lien-projet-1:hover {
